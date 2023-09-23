@@ -203,7 +203,7 @@
     }
 }
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:768px){
     .main_slide div:nth-child(1){
         font-size: 18px;
     }
