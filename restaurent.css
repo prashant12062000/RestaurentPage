@@ -520,7 +520,8 @@
     }
 
     .main_slide4 .chef img{
-        /* width: 80% */
+        width: 80%;
+        height: 536px;
     };
 }
 
