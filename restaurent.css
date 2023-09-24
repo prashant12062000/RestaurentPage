@@ -348,9 +348,9 @@
 
 .main_slide4 .chef img{
     margin-top: -130px;
-    width: auto;
+    width: 50vw;
     max-width: 490px;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .main_slide4 .chef-feed h2{
@@ -521,7 +521,7 @@
 
     .main_slide4 .chef img{
         width: 80%;
-        height: 536px;
+        
     };
 }
 
