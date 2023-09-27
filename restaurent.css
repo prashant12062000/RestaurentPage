@@ -333,7 +333,7 @@
     display: flex;
     margin-top: 270px;
     flex-wrap: wrap-reverse;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 
 .main_slide4 .chef-feed{
@@ -420,6 +420,93 @@
     font-size: 11px;
     padding-top: 8px;
     line-height: 13px;
+}
+
+.letter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.letter-head{
+    flex: 0.5;
+}
+
+.letter-head h2{
+    font-size: 30px;
+}
+
+.letter-head span{
+    color: red;
+}
+
+.letter-input{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex: 0.5;
+}
+
+.letter-input div{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    background-color:rgb(255, 219, 185) ;
+}
+
+.letter-input input{
+    font-size: 15px;
+    padding: 10px;
+    outline:none;
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 219, 185);
+}
+
+.letter-input .red_btn {
+    margin: 0;
+    font-size: 18px;
+    box-shadow: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.footer{
+    padding: 60px 0 ;
+    border: 2px solid rgb(252, 184, 107);
+    background-color: rgb(252, 222, 195);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-1 .logo img{
+    width: 200px;
+
+}
+
+.footer-1p{
+    cursor: pointer;
+    font-size: 14px;
+    padding: 2px;
+    color: rgb(255, 137, 2);
+}
+
+.footer-2{
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-2 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.footer-2 img{
+    width: 50px;
+    margin-bottom: 15px;
 }
 @media only screen and (max-width:768px){
     .header .nav,
@@ -523,6 +610,31 @@
         width: 80%;
         
     };
+
+    .letter-input h2{
+        font-size: 20px;
+    }
+
+    .letter-input input{
+        font-size: 12px;
+        padding: 15px;
+        width: 50vw;
+    }
+
+    .letter-input .red_btn{
+        line-height: 40px;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .footer .footer-1 div{
+        margin: 0;
+
+    }
+
+    .footer div{
+        margin-bottom: 40px;
+    }
 }
 
 @media only screen and (max-width:550px){
@@ -581,5 +693,27 @@
     }
      .main_slide4 .chef-vic div p{
         display: none;
+     }
+
+     .letter{
+        justify-content: center;
+
+     }
+     .letter-head{
+        flex: 1;
+        text-align: center;
+     }
+
+     .footer div:last-child{
+        margin-bottom: 0;
+
+     }
+
+     .footer{
+        padding-bottom: 25px;
+     }
+
+     .footer-2 h2{
+        font-size: 20px;
      }
 }
